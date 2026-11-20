@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+@layer base {
+  :root {
+    font-family: 'DM Sans', ui-sans-serif, system-ui, sans-serif;
+    color: #2b2530;
+    background: #f5f3f6;
+    font-synthesis: none;
+  }
+
+  body {
+    min-width: 320px;
+    min-height: 100vh;
+  }
+
+  button,
+  select,
+  input,
+  textarea {
+    font: inherit;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
+
+/* RBC-inspired product theme */
+[class~="bg-[#350d36]"] {
+  background-color: #061e41 !important;
+}
+
+[class~="bg-[#3f0e40]"] {
+  background-color: #003168 !important;
+}
+
+[class~="bg-[#5f4674]"],
+[class~="bg-[#6d56b3]"],
+[class~="bg-[#735886]"],
+[class~="bg-[#f06a53]"] {
+  background-color: #0072ce !important;
+}
+
+[class~="bg-[#ff7657]"] {
+  background-color: #fedf01 !important;
+}
+
+[class~="text-[#6d56b3]"],
+[class~="text-[#735886]"],
+[class~="text-[#5e4671]"],
+[class~="text-[#664b76]"],
+[class~="text-[#4e3a59]"],
+[class~="text-[#4e3b58]"],
+[class~="text-[#503768]"] {
+  color: #0051a5 !important;
+}
+
+[class~="border-[#6d56b3]"],
+[class~="border-[#735886]"],
+[class~="border-[#8267a0]"] {
+  border-color: #0072ce !important;
+}
+
+[class~="bg-[#f0ebf3]"],
+[class~="bg-[#f0ebf4]"],
+[class~="bg-[#f1eef5]"],
+[class~="bg-[#f2eef6]"],
+[class~="bg-[#f6f1f8]"],
+[class~="bg-[#f6f2f8]"],
+[class~="bg-[#eee8f3]"] {
+  background-color: #edf5fc !important;
+}
+
+[class~="text-[#d65d46]"] {
+  color: #a47d00 !important;
+}

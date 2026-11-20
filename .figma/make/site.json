@@ -1,0 +1,10 @@
+{
+  "description": "An interactive product prototype that helps teams explore core features, validate workflows, and communicate product requirements to stakeholders.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
